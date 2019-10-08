@@ -1,0 +1,38 @@
+<div class="story">
+<h1></h1>
+<div class="path">google.story</div>
+<div class="scenario">
+<h2>Scenario: Search on Google</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given User is on Google page</div>
+<div class="step">When User enters '&lt;searchText&gt;' in search field</div>
+<div class="step">When User clicks on search button</div>
+<div class="step">Then user clicks '&lt;link&gt;' Link</div>
+<table>
+<thead>
+<tr>
+<th>searchText</th><th>link</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>deep learning</td><td>deep learning</td></tr>
+<tr>
+<td>Machine learning</td><td>Machine learning</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {searchText=deep learning, link=deep learning}</h3>
+<div class="step successful">Given User is on Google page</div>
+<div class="step successful">When User enters '<span class="step parameter">deep learning</span>' in search field</div>
+<div class="step successful">When User clicks on search button</div>
+<div class="step successful">Then user clicks '<span class="step parameter">deep learning</span>' Link</div>
+
+<h3 class="example">Example: {searchText=Machine learning, link=Machine learning}</h3>
+<div class="step successful">Given User is on Google page</div>
+<div class="step successful">When User enters '<span class="step parameter">Machine learning</span>' in search field</div>
+<div class="step successful">When User clicks on search button</div>
+<div class="step successful">Then user clicks '<span class="step parameter">Machine learning</span>' Link</div>
+</div>
+</div>
+</div>
